@@ -46,6 +46,36 @@ SHECONNECT is an AI-driven chatbot designed to provide personalized financial gu
    Open your browser and navigate to:
    - `http://localhost:8501` (Streamlit)
    - `http://localhost:3000` (React)
+7. **React file organisation:**
+   Project Directory:
+my-app/
+├── node_modules/
+├── public/
+│   └── index.html
+└── src/
+    └── components/
+        ├── AgriculturePage.css
+        ├── AgriculturePage.js
+        ├── ApiService.js
+        ├── BankingPage.css
+        ├── BankingPage.js
+        ├── BusinessPage.css
+        ├── BusinessPage.js
+        ├── CategoryPage.js
+        ├── ChatComponent.js
+        ├── EducationPage.css
+        ├── EducationPage.js
+        ├── HealthPage.js
+        ├── hero-image.jpg
+        ├── homepage.css
+        ├── homepage.js
+        ├── LanguageSelector.js
+        ├── PersonalPage.css
+        ├── PersonalPage.js
+        ├── QueryInput.js
+        ├── RedirectToStreamlit.js
+        ├── ResponseDisplay.js
+        └── SchemaDetails.js
 
 ---
 
@@ -66,7 +96,8 @@ SHECONNECT is an AI-driven chatbot designed to provide personalized financial gu
 
 ## Usage Examples
 - **Text Query:**
-  - Example: *"What is the best way to save for retirement?"*
+  - Example: *"What is the best way to save for retirement?"*![Screenshot 2024-12-29 200945](https://github.com/user-attachments/assets/9a7e54b0-9a06-45b8-a16b-2ecd0ecabf4e)
+
 - **Voice Query:**
   - Example: Press the microphone icon and ask: *"How can I start a mutual fund investment?"*
 
@@ -74,19 +105,26 @@ SHECONNECT is an AI-driven chatbot designed to provide personalized financial gu
 
 ## Screenshots or GIFs
 - **Homepage:**  
-  ![Screenshot of Homepage](link_to_screenshot_1.png)
-- **Query in Action:**  
-  ![GIF of Query Interaction](link_to_gif_interaction.gif)
+  ![Screenshot 2024-12-29 201201](https://github.com/user-attachments/assets/ec0009e9-ee36-4928-b1c2-c6877e25b1a9)
+
+- **Chatbot:**  
+  ![Screenshot 2024-12-29 200945](https://github.com/user-attachments/assets/3fae334a-76ac-4be9-a359-d1618b2b6cdb)
+- **Scheme page:**
+  ![Screenshot 2024-12-29 201134](https://github.com/user-attachments/assets/0be2acd3-e9fb-489c-a20c-8a7e6564b7d5)
+- **overview of schemepage:**  
+![Screenshot 2024-12-29 201112](https://github.com/user-attachments/assets/c4673331-f8f7-43a6-8320-3e01fd0c292f)
+
 
 ---
 
 ## Team Members
-1. **[Your Name]** - Lead Developer  
-2. **[Member Name]** - Frontend Developer  
-3. **[Member Name]** - AI Specialist  
-4. **[Member Name]** - UI/UX Designer  
+1. **[SHRI MONESH V]** -  AI Specialist 
+2. **[RAGHUL]** - Frontend Developer  
+3. **[RAHUl]** - developer  
+  
 
----
+
+
 
 ## License
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
