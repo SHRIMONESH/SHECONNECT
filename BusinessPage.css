@@ -1,0 +1,99 @@
+/* Business Page Container */
+.business-container {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f9; /* Light neutral background */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  }
+  
+  /* Title Styling */
+  .business-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #28a745; /* Green color for growth and business theme */
+    margin-bottom: 20px;
+    text-transform: uppercase; /* Makes the text uppercase */
+    letter-spacing: 2px; /* Adds spacing between letters */
+    border-bottom: 3px solid #28a745; /* Adds a decorative underline */
+    padding-bottom: 10px; /* Adds spacing under the title */
+  }
+  
+  /* Schemes Container */
+  .schemes-buttons {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  }
+  
+  /* Individual Scheme Styling */
+  .scheme {
+    padding: 15px;
+    text-align: left;
+    border: 2px solid #28a745;
+    border-radius: 10px;
+    width: 300px;
+    background-color: #f8f9fa; /* Light background for clarity */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+  
+  /* Hover Effect for Scheme */
+  .scheme:hover {
+    background-color: #218838;
+  transform: translateY(-2px); /* More pronounced shadow */
+  }
+  
+  /* Scheme Title */
+  .scheme h3 {
+    font-size: 20px;
+  font-weight: bold;
+  color: #212529;
+  margin-bottom: 10px;
+  }
+  
+  /* Learn More Button */
+  .scheme-btn {
+    display: inline-block;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+  text-align: center;
+  }
+  
+  /* Hover Effect for Button */
+  .scheme-btn:hover {
+    background-color: #2980b9; /* Slightly darker blue */
+  }
+  
+  .learn-more-link {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #28a745;
+  }
+  
+  .learn-more-link:hover {
+    text-decoration: underline;
+    color: #1e7e34; /* Slightly darker green on hover */
+  }
+  /* Responsive Design for Mobile */
+  @media (max-width: 768px) {
+    .scheme {
+      width: 90%; /* Adjust width for smaller screens */
+    }
+  
+    .business-title {
+      font-size: 28px; /* Adjust font size */
+    }
+  }
+  

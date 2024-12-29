@@ -1,0 +1,74 @@
+.PersonalPage {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+}
+
+.PersonalPage .container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.PersonalPage h1 {
+  text-align: center;
+  color: #4CAF50;
+}
+
+.PersonalPage form {
+  margin-bottom: 20px;
+}
+
+.PersonalPage form div {
+  margin-bottom: 10px;
+}
+
+.PersonalPage label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.PersonalPage input,
+.PersonalPage select,
+.PersonalPage button {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.PersonalPage button {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.PersonalPage button:hover {
+  background-color: #45a049;
+}
+
+.PersonalPage .pie-chart {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.PersonalPage ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.PersonalPage li {
+  background: #f4f4f4;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}

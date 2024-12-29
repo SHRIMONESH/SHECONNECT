@@ -1,0 +1,175 @@
+/* homepage.css */
+
+/* Global Styles */
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --background-color: #f8f9fa;
+  --text-color: #343a40;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('./hero-image.jpg'); /* Set global background image */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Keeps the background fixed while scrolling */
+  color: var(--text-color);
+}
+
+.homepage-container {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.8); /* Slight overlay for content readability */
+  backdrop-filter: blur(5px); /* Optional blur effect */
+  min-height: 100vh; /* Ensure it covers the full viewport height */
+  padding: 20px;
+}
+
+/* Header Styling */
+/* Header Styling */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333333; /* Darker text color for elegance */
+}
+
+.title {
+  font-size: 3rem; /* Large and readable font size */
+  font-weight: 700; /* Bold for emphasis */
+  letter-spacing: 2px; /* Slight spacing for a modern look */
+  color: #007bff; /* Primary brand color for the title */
+  text-transform: uppercase; /* Make the company name uppercase for emphasis */
+  border-bottom: 3px solid #28a745; /* Add a subtle underline for style */
+  display: inline-block; /* Keeps underline tight to text */
+  margin-bottom: 10px;
+}
+
+.intro {
+ 
+    font-size: 3rem; /* Large and readable font size */
+    font-weight: 700; /* Bold for emphasis */
+    letter-spacing: 2px; /* Slight spacing for a modern look */
+    color: #007bff; /* Primary brand color for the title */
+    text-transform: uppercase; /* Make the company name uppercase for emphasis */
+    border-bottom: 3px solid #28a745; /* Add a subtle underline for style */
+    display: inline-block; /* Keeps underline tight to text */
+    margin-bottom: 10px;
+}
+.intro-sub{
+  font-size: 1.4rem; /* Slightly smaller subtitle */
+  font-weight: 400; /* Normal weight for subtitle */
+  color: #555555; /* Soft gray color for contrast */
+  margin-top: 5px;
+  font-style: italic; /* Adds a touch of elegance */
+}
+.subtitle {
+  font-size: 1.4rem; /* Slightly smaller subtitle */
+  font-weight: 400; /* Normal weight for subtitle */
+  color: #555555; /* Soft gray color for contrast */
+  margin-top: 5px;
+  font-style: italic; /* Adds a touch of elegance */
+}
+
+.title {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+/* Hero Text */
+.hero-text {
+  text-align: center;
+  color: white;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+  margin: 40px 0;
+}
+
+.hero-text h2 {
+  font-size: 2.5rem;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.button.primary {
+  background-color: #28a745;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button.primary:hover {
+  background-color: #218838;
+}
+
+/* Categories Section */
+.category-section {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* Popular Schemes Section */
+.schemes-grid {
+  margin: 30px 0;
+}
+
+.buttons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.scheme-btn {
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent button background */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-decoration: none;
+  color: var(--text-color);
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.scheme-btn:hover {
+  background-color: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
+}
+
+/* Footer Section */
+.footer {
+  margin-top: 30px;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.actions-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}

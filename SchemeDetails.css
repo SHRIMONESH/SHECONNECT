@@ -1,0 +1,31 @@
+.scheme-details-container {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  .scheme-title {
+    font-size: 2rem;
+    color: #007BFF; /* A nice blue shade */
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .scheme-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    white-space: pre-wrap; /* Preserves formatting of multiline text */
+  }
+  
+  .error-message {
+    font-size: 1.5rem;
+    color: red;
+    text-align: center;
+    margin-top: 50px;
+  }
+  

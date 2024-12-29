@@ -1,0 +1,46 @@
+/* Updated Styling for Centered Scheme Name Text in a Smaller Box */
+.scheme-name {
+  display: inline-block;
+  font-size: 1.2rem; /* Slightly smaller text */
+  font-weight: bold; /* Bold text for scheme name */
+  color: #0056b3;
+  background-color: #e7f3ff; /* Light blue background */
+  padding: 10px 20px; /* Reduced padding for a smaller box */
+  border: 2px solid #0056b3; /* Blue border for the box */
+  border-radius: 10px; /* Rounded corners */
+  text-align: center;
+  text-transform: uppercase; /* Makes text uppercase */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+  transition: transform 0.3s ease;
+}
+
+.scheme-name:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  background-color: #dbe9ff; /* Slightly darker blue on hover */
+}
+
+/* Styling for Learn More Link */
+.learn-more-link {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #28a745; /* Green color for the link */
+  background-color: transparent; /* Transparent background */
+  text-decoration: none;
+  padding: 10px 20px; /* Match padding to the blue box */
+  border: 2px solid #28a745; /* Green border for the link */
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.learn-more-link:hover {
+  background-color: #d4edda; /* Light green on hover */
+  color: #155724;
+  border-color: #155724;
+}
+
+/* Parent container for blue box and Learn More link */
+.scheme {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
